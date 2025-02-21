@@ -1,0 +1,24 @@
+# Configure status bar
+set guioptions "s"
+set statusbar-bg "#00000000"
+set statusbar-fg "#999999"
+set statusbar-basename true
+
+# Configure notifications
+set notification-bg "#BBBBBB"
+set notification-fg "#000000"
+
+# Configure window title
+set window-title-home-tilde true
+
+# Maps navigations keys for smooth scrolling
+map j feedkeys "<C-Down>"
+map k feedkeys "<C-Up>"
+map h feedkeys "<C-Left>"
+map l feedkeys "<C-Right>"
+
+# Aligns the page for navigations
+map zz feedkeys "<S-P>"
+
+# Copy selection to system clipboard
+set selection-clipboard clipboard
