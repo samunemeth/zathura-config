@@ -1,6 +1,6 @@
 # Configure status bar
 set guioptions "s"
-set statusbar-bg "rgba(230, 230, 230, 0.3)"
+set statusbar-bg "#00000000"
 set statusbar-fg "#999999"
 set statusbar-basename true
 
